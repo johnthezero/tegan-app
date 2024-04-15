@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+}
+.container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container div a {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  background: #f5f5f5;
+}
+.container div img {
+  aspect-ratio: 1;
+  width: 25vw;
+}/*# sourceMappingURL=Oeuvres.css.map */
